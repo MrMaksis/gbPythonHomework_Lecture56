@@ -6,7 +6,8 @@ def find_indexes(lst, min_val, max_val):
     return result
 
 lst = [-5, 9, 0, 3, -1, -2, 1, 4, -2, 10, 2, 0, -9, 8, 10, -9, 0, -5, -5, 7]
-min_val = -2
-max_val = 7
-indexes = find_indexes(lst, min_val, max_val)
-print(indexes)
+
+min_val = int(input())
+max_val = int(input())
+
+print(find_indexes(lst, min_val, max_val))
